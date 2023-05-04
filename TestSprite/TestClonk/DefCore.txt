@@ -1,0 +1,7 @@
+[DefCore]
+Width=16
+Height=20
+Offset=-8, -10
+Picture=0,280,32,40
+Scale=200
+

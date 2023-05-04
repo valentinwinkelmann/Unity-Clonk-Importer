@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEditor;
-using TexturePackerImporter;
-using UnityEditorInternal;
 using System.Collections.Generic;
-using UnityEngine.Rendering;
 
 public class ClonkImporter : EditorWindow
 {
@@ -58,7 +55,7 @@ public class ClonkImporter : EditorWindow
         if(EditorGUILayout.LinkButton("More on Github"))
         {
             // Open link in browser
-            Application.OpenURL("https://github.com/valentinwinkelmann/Clonk-Unity-Importer");
+            Application.OpenURL("https://github.com/valentinwinkelmann/Unity-Clonk-Importer");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.LabelField("'Clonk' is a registered trademark of Matthes Bender.", EditorStyles.centeredGreyMiniLabel);

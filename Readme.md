@@ -7,6 +7,11 @@ Since there is a wonderful Blender plugin for Clonk, which could render spritesh
 
 ## ⁉️How to use?
 ![enter image description here](https://raw.githubusercontent.com/valentinwinkelmann/Clonk-Unity-Importer/main/GithubResources/Screenshot_01.png)
+### 📦Requirements
+- Unity 2021.3 or higher ( it should work with older versions, but i didn't test it )
+- Unity 2D Animation Package - com.unity.2d.animation
+- Knowledge about the Clonk Workflow
+
 ### 🔌Installation
 Just download the latest release and import the unitypackage into your Unity Project.
 ### 💾Importing a Clonk Spritesheet
@@ -18,6 +23,18 @@ Just download the latest release and import the unitypackage into your Unity Pro
 ### How can i make Spritesheets?
 You can use the Blender Plugin for Clonk to render Spritesheets. You can find it here: [Clonk Blender Plugin](https://github.com/RoboClonk/RenderClonkAddon)
 You can use Anigrab as many clonkers did before to pack their mod spritesheets. You can find it here: [Official Clonk Developer Documentation](https://clonk.de/developer.php?lng=en)
+
+
+### 🎯Todo
+[x] Import Clonk Spritesheets into Unity and split into ActMap Animations via ActMap.txt
+[x] Import Title Image into Unity via DefCore.txt
+[x] Support for multiple Spritesheets
+[ ] Sprite Shader which understands the Clonk Overlay Texture
+[ ] Add extra sprites like Overlay.png as [Secondary Textures](https://docs.unity3d.com/Manual/SpriteEditor-SecondaryTextures.html)
+[ ] Generate [Sprite Library Asset](https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/SpriteSwapIntro.html) for Sprite Swapping.
+[ ] Let Animations be placed ontop of Graphics, like Single Door Spritesheet Animations on a House.
+[ ] Example Clonk Player Controller just for Fun🕹️
+
 
 
 ## 📃License

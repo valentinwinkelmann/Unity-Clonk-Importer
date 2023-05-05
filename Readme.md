@@ -11,7 +11,6 @@ Since there is a wonderful Blender plugin for Clonk, which could render spritesh
 - Unity 2021.3 or higher ( it should work with older versions, but i didn't test it )
 - Unity 2D Animation Package - com.unity.2d.animation
 - Knowledge about the Clonk Workflow
-
 ### 🔌Installation
 Just download the latest release and import the unitypackage into your Unity Project.
 ### 💾Importing a Clonk Spritesheet
@@ -26,18 +25,18 @@ You can use Anigrab as many clonkers did before to pack their mod spritesheets. 
 
 
 ### 🎯Todo
-[x] Import Clonk Spritesheets into Unity and split into ActMap Animations via ActMap.txt
-[x] Import Title Image into Unity via DefCore.txt
-[x] Support for multiple Spritesheets
-[ ] Sprite Shader which understands the Clonk Overlay Texture
-[ ] Add extra sprites like Overlay.png as [Secondary Textures](https://docs.unity3d.com/Manual/SpriteEditor-SecondaryTextures.html)
-[ ] Generate [Sprite Library Asset](https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/SpriteSwapIntro.html) for Sprite Swapping.
-[ ] Let Animations be placed ontop of Graphics, like Single Door Spritesheet Animations on a House.
-[ ] Example Clonk Player Controller just for Fun🕹️
+- [x] Import Clonk Spritesheets into Unity and split into ActMap Animations via ActMap.txt
+- [x] Import Title Image into Unity via DefCore.txt
+- [x] Support for multiple Spritesheets
+- [ ] Sprite Shader which understands the Clonk Overlay Texture
+- [ ] Add extra sprites like Overlay.png as [Secondary Textures](https://docs.unity3d.com/Manual/SpriteEditor-SecondaryTextures.html)
+- [ ] Generate [Sprite Library Asset](https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/SpriteSwapIntro.html) for Sprite Swapping.
+- [ ] Let Animations be placed ontop of Graphics, like Single Door Spritesheet Animations on a House.
+- [ ] Example Clonk Player Controller just for Fun🕹️
 
 
 
 ## 📃License
 The Unity Clonk Importer is licensed under the MIT License. See `LICENSE` for more information.
-Im not affiliated with Matthes Bender or Clonk in any way. This dosn't allow you to use the Original Clonk Spritesheets or others Mod Spritesheets in any way. It's meant to be used with your own Spritesheets.
+Im not affiliated with Matthes Bender or Clonk in any way. This Importer Plugin dosn't allow you to use the Original Clonk Spritesheets or others Mod Spritesheets in any way. It's meant to be used with your own Spritesheets.
 'Clonk' is a registered trademark of Matthes Bender.
